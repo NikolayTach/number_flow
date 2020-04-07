@@ -16,6 +16,7 @@ text as A(12211)
   gor = form !B folowing brings '11'
   B brings '22' and '11' 
   B by 1 number seq in \B
+ take gor = brings [B\B\B\B\B\B]
   }
   Signs (Hello) ground As Addition in the #OREOBEEM 
   use sets 
