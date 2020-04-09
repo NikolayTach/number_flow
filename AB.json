@@ -1,16 +1,16 @@
 {
-   "angle" : "111"
-   "feed" : "101"
-   "foot_note" : "110011"
-   
-   "League" : "AAA?/AAA?"
-   
-  &\
- 
-   "angle" : "---"
-   "feed" : "---"
-   "foot_note" : "------"
-   
-   "League" : "BBB?/BBB?"
+  "data":"["
+   {
+     "{#ANGLE}" : "111",
+     "{#FEED}" : "101"},
+   {
+     "{#FOOT_NOTE}" : "110011",
+     "{#LEAGUE}" : "AAA?/AAA?}",
+   {
+     "{#ANGLE}" : "---",
+     "{#FEED}" : "---",
+   {
+     "{#FOOT_NOTE}" : "------",
+     "{#LEAGUE}" : "BBB?/BBB?"},
 }
    
