@@ -12,7 +12,7 @@ text as A(12211)
  A brings '11' and '22' 
  A by 1 number seq in \A
  take gor = brings [A\A\B\B\A\A]
-  gor = 2 As B(11122) poups (nosign!!)
+  gor = 2 As B(11122) popups (nosign!!)
   gor = form !B folowing brings '11'
   B brings '22' and '11' 
   B by 1 number seq in \B
