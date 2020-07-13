@@ -1,9 +1,9 @@
 pair As frame used in narow 
 
 {
-text as A(12211)
- prone As 
- view text as number flow 
+   text as A(12211)
+   prone As 
+   view text as number flow 
  broght figure 
  \A 
  \B 
@@ -18,13 +18,22 @@ text as A(12211)
   B by 1 number seq in \B
  take gor = brings [B\B\B\B\B\B]
   }
-  Signs (Hello) ground As Addition in the #OREOBEEM 
-  use sets 
-  of fonts of AB=1>0 on AB 
-  \stopaction
-  \startaction
-  brings Value of 
-  (1111\\\\11111\\\\111111)
-  .\[:;].\ 
   
-  
+    {
+   if
+var column = (timeoverleap) known as
+'0_111111' inherited image cycle frame
+work
+row equal to = (xsearching) or
+(skyware)
+As
+   var column = due in '0_111111' to
+row equal = (timoverleap) known as
+'0_111111' [complex&@/
+0718375299528bar]
+var tasking force = 'abc' for 'basics'
+var tasking force = 'up' and 'down'
+cont rows = '1_0000001' while
+rows assets [text]
+rows assets [numbers]
+}
