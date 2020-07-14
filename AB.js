@@ -1,5 +1,5 @@
 pair As frame used in narow 
-function addMessage(element,message)
+function addMessage(element,message);
 {
    text as A(12211)
    prone As 
@@ -18,10 +18,10 @@ function addMessage(element,message)
   B by 1 number seq in \B
  take gor = brings [B\B\B\B\B\B]
   }
-  function ABAB()    
+  function ABAB()   
           {
    if
-     var column = (timeoverleap) known as
+     var column = (timeoverleap); known as
         '0_111111' inherited image cycle frame
      work
           row equal to = (xsearching) or (skyware)
@@ -32,8 +32,8 @@ row equal = (timoverleap) known as
 var tasking force = 'abc' for 'basics'
 var tasking force = 'up' and 'down'
 cont rows = '1_0000001' while
-rows asserts(text)
-rows asserts(numbers)
+row asserts(text)
+row asserts(numbers)
        }
        
    }
