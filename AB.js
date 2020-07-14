@@ -30,7 +30,7 @@ As
 row equal = (timoverleap) known as
 '0_111111' [complex&@/0718375299528bar]
 var tasking force = 'abc' for 'basics'
-var tasking force = 'up' and 'down'
+var tasking force = 'up' for 'down'
 cont rows = '1_0000001' while
 row asserts(text)
 row asserts(numbers)
