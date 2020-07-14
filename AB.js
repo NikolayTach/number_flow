@@ -1,5 +1,5 @@
 pair As frame used in narow 
-fuction addMessage(element,message)
+function addMessage(element,message)
 {
    text as A(12211)
    prone As 
