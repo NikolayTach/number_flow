@@ -21,11 +21,10 @@ function addMessage(element,message)
   function ABAB()    
           {
    if
-var column = (timeoverleap) known as
-'0_111111' inherited image cycle frame
-work
-row equal to = (xsearching) or
-(skyware)
+     var column = (timeoverleap) known as
+        '0_111111' inherited image cycle frame
+     work
+          row equal to = (xsearching) or (skyware)
 As
    var column = due in '0_111111' to
 row equal = (timoverleap) known as
