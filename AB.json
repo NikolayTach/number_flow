@@ -1,18 +1,22 @@
 {
-  "data":[
-   {
-     "{#ANGLE}" : "111",
-     "{#FEED}" : "101"},
-   {
-     "{#FOOT_NOTE}" : "110011",
-     "{#LEAGUE}" : "AAA?/AAA?"},
-   {
-     "{#ANGLE}" : "---",
-     "{#FEED}" : "---"},
-   {
-     "{#FOOT_NOTE}" : "------",
-     "{#LEAGUE}" : "BBB?/BBB?"},
- ]}
- 
-    
+      "data": [
+           {
+                 "{#ANGLE}" :  "111",
+                 "{#FEED}" :  "101"
+        },
+           {
+                 "{#FOOT_NOTE}" :  "110011",
+                 "{#LEAGUE}" :  "AAA?/AAA?"
+        },
+           {
+                 "{#ANGLE}" :  "---",
+                 "{#FEED}" :  "---"
+        },
+           {
+                 "{#FOOT_NOTE}" :  "------",
+                 "{#LEAGUE}" :  "BBB?/BBB?"
+        },
+         
+    ]
+}
    
