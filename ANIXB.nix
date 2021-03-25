@@ -1,12 +1,12 @@
 {
-[A brings '11' and '22' 
- A by 1 number seq in \A
-  take gor = brings [A\A\B\B\A\A]
+A brings '11' and '22' 
+ A by 1 number seq in .A
+  take gor = brings [A.A.B.B.A.A]
     gor = 3 As B(11122) popups (nosign!!)
       gor = form !B folowing brings '11'
         B brings '22' and '11' 
-	  B by 1 number seq in \B
-	   take gor = brings [B\B\B\B\B\B]
+	  B by 1 number seq in .B
+	   take gor = brings [B.B.B.B.B.B]
 	   }
 	   sanitizeDerivationName = string: lib.pipe string [
 	       # Get rid of string context. This is safe under the assumption that the
