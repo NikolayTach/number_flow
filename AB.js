@@ -1,40 +1,28 @@
-pair As frame used in narow 
-function addMessage(element,message);
-{
-   text as A(12211)
-   prone As 
-   view text as number flow 
- broght figure 
- import number_flow(\A)
- import number_flow(\B)
- gor = 1 As A(12211) popups (sign!!)
- gor = form !A flowing brings '22'
-[A] brings '11' and '22' 
+				       # https://github.com/NixOS/nix/blob/2.3.2/src/libstore/store-api.cc#L85-L112
+				           # https://github.com/NixOS/nix/blob/2242be83c61788b9c0736a92bb0b5c7bbfc40803/nix-rust/src/store/path.rs#L100-L125
+[A brings '11' and '22' 
  A by 1 number seq in \A
   take gor = brings [A\A\B\B\A\A]
     gor = 3 As B(11122) popups (nosign!!)
       gor = form !B folowing brings '11'
-        [B] brings '22' and '11' 
+        B brings '22' and '11' 
 	  B by 1 number seq in \B
-	   take gor = brings [B\B\B\B\B\B] 
+	   take gor = brings [B\B\B\B\B\B]
+	   }
+	   sanitizeDerivationName = string: lib.pipe string [
+	       # Get rid of string context. This is safe under the assumption that the
+	           # resulting string is only used as a derivation name
+		       builtins.unsafeDiscardStringContext
+		           # Strip all leading "."
+			       (x: builtins.elemAt (builtins.match "\\.*(.*)" x) 0)
+			           # Split out all invalid characters
+					       (builtins.split "[^[:alnum:]+._?=-]+")
+					           # Replace invalid character ranges with a "-"
+						       (concatMapStrings (s: if lib.isList s then "-" else s))
+						           # Limit to 211 characters (minus 4 chars for ".drv")
+							       (x: substring (lib.max (stringLength x - 207) 0) (-1) x)
+							           # If the result is empty, replace it with "unknown"
+								       (x: if stringLength x == 0 then "unknown" else x)
+								         ];
 
-  }
-  function ABAB()   
-          {
-   if
-     var column = (timeoverleap); known as
-        '0_111111' inherited image cycle frame
-     work
-          row equal to = (xsearching) or (skyware)
-As
-   var column = due in '0_111111' to
-row equal = (timoverleap) known as
-'0_111111' [complex&@/0718375299528bar]
-var tasking force = 'abc' for 'basics'
-var tasking force = 'up' for 'down'
-cont rows = '1_0000001' while
-row asserts(text)
-row asserts(numbers)
-       }
-       
-   }
+									 }
