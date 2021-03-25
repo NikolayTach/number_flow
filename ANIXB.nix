@@ -1,3 +1,4 @@
+{
 [A brings '11' and '22' 
  A by 1 number seq in \A
   take gor = brings [A\A\B\B\A\A]
