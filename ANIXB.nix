@@ -8,6 +8,7 @@ A brings '11' and '22'
 	  B by 1 number seq in .B
 	   take gor = brings [B.B.B.B.B.B]
 	   }
+{
 	   sanitizeDerivationName = string: lib.pipe string [
 	       # Get rid of string context. This is safe under the assumption that the
 	           # resulting string is only used as a derivation name
