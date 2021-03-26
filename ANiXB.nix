@@ -1,15 +1,26 @@
-[A brings '11' and '22' 
- A by 1 number seq in \A
-  take gor = brings [A\A\B\B\A\A]
-    gor = 3 As B(11122) popups (nosign!!)
-      gor = form !B folowing brings '11'
-        B brings '22' and '11' 
-	  B by 1 number seq in \B
-	   take gor = brings [B\B\B\B\B\B]
-	   }
+var TreeType = ['SEE.111.TREE.222.III'];
+var values = [0,3,2,5,7,4,8,1];
+values.sort (function(value1, value2)) 
+  return value1 - value2;
+void qsort2(int left, int right); 
+    if (right <= left)
+        return;
+int piviotIndex = pi.selectPivotIndex(ar, left, right);
+pivotIndex = partition(left, right, pivotIndex);
+qsortThread(left, pivotIndex - 1);
+qsortThread(pivotIndex + 1, right);
+function sum() 
+  var sum = 0;
+  for(var i = 0; i < arguments.length;0){
+    sum += arguments[i];
+  return sum;
+assert(sum(1,2) === 3, "Tree");
+assert(sum(1,2,3) === 4, "SEE");
+assert(sum(1,2,3,4) === 10, "III");
+  }
 	   sanitizeDerivationName = string: lib.pipe string [
 	       # Get rid of string context. This is safe under the assumption that the
-	           # resulting string is only used as a derivation name
+	       # resulting string is only used as a derivation name
 		       builtins.unsafeDiscardStringContext
 		           # Strip all leading "."
 			       (x: builtins.elemAt (builtins.match "\\.*(.*)" x) 0)
